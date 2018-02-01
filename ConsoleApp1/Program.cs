@@ -46,33 +46,49 @@ namespace ConsoleApp1
                 switch (userChoice1)
                 {
                     case "paper":
-                        if (userChoice1== "paper" && userChoice2 == "scissor")
+                        if (userChoice2 == "scissor")
                         {
-                            Console.WriteLine("Player2  win" + " " + player2.name);
+                            Console.WriteLine(player2.name+" wins");
                         }
-                        else if (userChoice1 == "paper" && userChoice2 == "paper")
+                        else if (userChoice2 == "paper")
                         {
-                            Console.WriteLine("no one wine");
+                            Console.WriteLine("No one wins");
+                        }
+                        else if (userChoice2 == "rock")
+                        {
+                            Console.WriteLine(player1.name + " wins");
                         }
                       
                         break;
                     case "scissor":
-                         if (userChoice1 == "scissor" && userChoice2 == "paper")
+                        if (userChoice2 == "scissor")
                         {
-                            Console.WriteLine("Player1 {0} Win" + "" + player1.name);
+                            Console.WriteLine("No one wins");
+                            
                         }
-                        else if (userChoice1 == "scissor" && userChoice2 == "scissor")
+                        else if (userChoice2 == "paper")
                         {
-                            Console.WriteLine();
+                            Console.WriteLine(player1.name + " wins");
+                        }
+                        else if (userChoice2 == "rock")
+                        {
+                            Console.WriteLine(player2.name + " wins");
                         }
                         break;
 
                     case "rock":
-                         if (userChoice1 == "Rock" && userChoice2 == "scissor")
+                        if (userChoice2 == "scissor")
                         {
-                            Console.WriteLine("Player1 win" + " " + player1.name);
+                            Console.WriteLine(player1.name + " wins");
                         }
-
+                        else if (userChoice2 == "paper")
+                        {
+                            Console.WriteLine(player2.name + " wins");
+                        }
+                        else if (userChoice2 == "rock")
+                        {
+                            Console.WriteLine("No one wins");
+                        }
                         break;
                         
                     default:
@@ -80,6 +96,9 @@ namespace ConsoleApp1
                         break;
                 }
 
+                Console.WriteLine("Play again? Y/N");
+                if (Console.ReadLine() == "N")
+                    input = 0;
 
             }
             while (input == 1);

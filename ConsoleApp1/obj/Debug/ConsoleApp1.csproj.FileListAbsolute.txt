@@ -5,3 +5,5 @@ c:\users\fard\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojR
 c:\users\fard\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 c:\users\fard\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 c:\users\fard\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Dennis\Documents\GitHub\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Dennis\Documents\GitHub\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
