@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hi World");
+            Console.WriteLine("dsds");
 
             int scissor = 1;
             int rock = 2;
