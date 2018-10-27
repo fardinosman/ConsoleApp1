@@ -9,6 +9,8 @@ namespace ConsoleApp1
     public class Player
     {
         public string name;
+
+        
        public Player(string n)
         {
             name = n;
